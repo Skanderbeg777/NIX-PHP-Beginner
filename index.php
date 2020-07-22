@@ -4,6 +4,7 @@
 <html lang="ru">
 <head>
     <title>NIX Education</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
