@@ -16,5 +16,6 @@
 <main>
     <h1>Добро пожаловать</h1>
 </main>
+<?php require_once "footer.php"?>
 </body>
 </html>
