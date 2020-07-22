@@ -13,6 +13,8 @@
         <a href="">Урок 3</a>
     </nav>
 </header>
-
+<main>
+    <h1>Добро пожаловать</h1>
+</main>
 </body>
 </html>
