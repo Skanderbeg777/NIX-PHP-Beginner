@@ -1,4 +1,11 @@
-<?php ?>
+<?php
+
+function create_table()
+{
+
+}
+
+?>
 
 <html lang="ru">
 <head>
