@@ -24,9 +24,26 @@ function create_block($num)
     $multiplier = " x ";
     $equals = " = ";
     for ($i = 1; $i <= 10; $i++){
-        echo $num.$multiplier.$i.$equals.$num*$i;
+        echo add_colors($num).$multiplier.add_colors($i).$equals.add_colors($num*$i);
         echo '<br/>';
     }
+}
+
+function add_colors($num)
+{
+    $num = str_split(strval($num));
+    foreach ($num as &$char){
+        if ($char == 1){
+            $char = '<span style="color: red;">1</span>';
+        } elseif ($char == 2){
+            $char = '<span style="color: green;">2</span>';
+        } elseif ($char == 3){
+            $char = '<span style="color: yellow;">3</span>';
+        } elseif ($char == 4){
+            $char = '<span style="color: blue;">4</span>';
+        }
+    }
+    return implode($num);
 }
 
 ?>
