@@ -39,3 +39,8 @@ footer{
     text-align: center;
     margin-top: 10%;
 }
+
+table, tr, td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
