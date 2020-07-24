@@ -41,7 +41,7 @@ function create_block($num)
     <?php require_once "nav.php" ?>
 </header>
 <main>
-    <h1>Урок 1</h1>
+    <a href="https://github.com/Skanderbeg777/NIX-PHP-Beginner/commit/8a40c901cc779cdcae9e14f5dd41871c1a8c230f"><h1>Урок 1</h1></a>
     <?php create_table(); ?>
 </main>
 <?php require_once "footer.php"?>

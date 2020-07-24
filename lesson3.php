@@ -14,7 +14,7 @@ if (isset($_POST['form']) && strlen($_POST['form']))
     <?php require_once "nav.php" ?>
 </header>
 <main>
-    <h1>Урок 3</h1>
+    <a href="https://github.com/Skanderbeg777/NIX-PHP-Beginner/commit/a80d622638f846836c233bfb20c67e04287b6ddb"><h1>Урок 3</h1></a>
     <?= htmlentities($msg); ?>
     <form method="post">
         <label for="form">Введите текст</label>

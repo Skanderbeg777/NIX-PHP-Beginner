@@ -58,7 +58,7 @@ function add_colors($num)
     <?php require_once "nav.php" ?>
 </header>
 <main>
-    <h1>Урок 2</h1>
+    <a href="https://github.com/Skanderbeg777/NIX-PHP-Beginner/commit/fcddd874c16aea7e35bd308b9a728b34e08db97e"><h1>Урок 2</h1></a>
     <?php create_table(); ?>
 </main>
 <?php require_once "footer.php"?>
